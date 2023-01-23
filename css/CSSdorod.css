@@ -1,0 +1,276 @@
+F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5/* Reset básico */
+body, h1, h2, h3, h4, h5, h6, p, form, figure {
+	margin: 0; padding: 0;
+}
+
+/* Tipografia geral */
+body {
+	font-family: Arial, sans-serif;
+	color: #000;
+}
+
+h1, h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif; 
+	font-size: 46px;
+	line-height: 30px;
+	}
+
+h4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif; 
+	font-size: 40px;
+	line-height: 30px; 
+}  
+	
+h6{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif; 
+	  font-size: 15px;
+	  line-height: auto;
+	  margin-top: 20px; 
+	  font-weight: lighter;  
+	  color: #9B9B9B; 
+}
+
+p{
+	  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif;  
+	  font-size: 23px;
+	  line-height: 30px;
+	  font-weight: 100;   
+	  padding-top: 10px; 
+}
+
+
+.subtit {
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+/* layout */
+
+.container {
+	width: 960px;
+	margin: 0 auto; /* centraliza o bloco na página */
+	max-width: 1200px;
+}
+
+contato {
+	width: 800px;
+	margin: 0 auto; /* centraliza o bloco na página */
+	max-width: 1200px; 
+} 
+header {
+	width: 80%;
+	displa: inline-block;
+	margin: 0 auto; /* centraliza o bloco na página */
+	
+	}
+
+footer {
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* Barra de navegacao */
+
+.grid-a {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 20px; 
+}
+
+
+.grid-header {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 400px;   
+  margin-top: 80px; 
+  position: center;
+}
+
+.grid-trabalho {
+  display: grid;
+  grid-template-columns: 27% 70%;
+  margin-top: 10px;
+  grid-column-gap: 3%;	
+  position: center;
+  padding-top: 40px; 
+}
+  
+.Social{
+ padding-top:20px;	
+ grid-column-gap: 30% 40% 30%;  
+}
+
+.explicacao {
+	text-align: left;
+}
+
+.apresentacao { 
+	padding-top: 100px;
+   
+}
+
+.ola{
+  height: 100%; 
+} 
+
+.imgcenter{
+  width: 20px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto; 
+} 
+
+.menu {
+  text-align: right;
+}
+
+.btn {
+    background-color: white; /* Green */
+    border: 2px solid #e7e7e7;
+    color: black;
+    padding: 05px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.Social{
+	padding-top: 3
+		0px;
+}
+.email{
+	color: white;
+} 
+.btn1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+
+.formularioContato { 
+    max-width:100%;  
+    height:auto; 
+    float:none; 
+    margin:0 auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#fff; 
+  	margin: 0;
+    padding: 0;
+	
+    
+    
+}
+.formularioContato:before { 
+    width:100%; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#f5f5f5; 
+	background:#f5f5f5; 
+	margin:0 auto;
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+}
+.formularioContato label  { 
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+}
+.formularioContato label span {
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif;; 
+}
+.formularioContato label input  { 
+    font-size:1em; 
+    background:#f5f5f5;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif;; 
+    outline:none; 
+    border: none; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: none;  
+}
+.formularioContato label select { 
+    font-size:1em; 
+    color:#f5f5f5;  
+    border:1px none;  
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+}
+.formularioContato label textarea { 
+    font-size:1em; 
+    color:#f5f5f5; 
+	background:#f5f5f5;
+    border: none; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+	 font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif;; 
+    transition: 0.3s;   
+}
+.formularioContato label input:focus    {box-shadow:0 0 5px 0px rgb(245,245,245); border:1px rgb(255,241,0) solid; color: black;}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(245,245,245); border:1px rgb(255,241,0) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(245,245,245); border:1px rgb(255,241,0) solid; color: black;}
+.formularioContato button.btn-envia { 
+    background-color:#FFF100; 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:black; 
+    font-size:1.3em; 
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"serif;; 
+    text-align: center;
+    transition: 0.3s;   
+}
+.formularioContato button.btn-envia:hover { 
+    background-color:#333; 
+}
+
+
+nav {
+	background-color: #fff;
+	height: 100px; 
+	line-height: 70px; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;  
+	
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 20px;
+	transition: all 0.3s ease-out 0s;
+	
+}
+
+.marca {
+}
